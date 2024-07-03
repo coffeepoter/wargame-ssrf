@@ -5,8 +5,8 @@ import base64
 
 app = Flask(__name__)
 
-AUTHORIZED_USERNAME = 'ASIAZI2LBYV7LQTWCYUX'
-AUTHORIZED_PASSWORD = 'lpSZYvNMp0+ozcynDAjCCofEEssezm/HK6PbIAuP'
+AUTHORIZED_USERNAME = 'ASIAZI2LBYV7F3MLB767'
+AUTHORIZED_PASSWORD = 'YqXZBkVchWwwj8MzDAVDDnBdaaUtDqkEB+l0w4Hn'
 
 def check_auth(username, password):
     return username == AUTHORIZED_USERNAME and password == AUTHORIZED_PASSWORD
